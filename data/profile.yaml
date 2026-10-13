@@ -15,9 +15,9 @@ list:
   - "Deep technical background: microprocessor architecture, high performance computing"
 
 links:
-  - label: "GitHub"
-    url: "https://github.com/nilmini20s"
-  - label: "Medium"
-    url: "https://medium.com/@nilmini20s"
   - label: "LinkedIn"
     url: "https://linkedin.com/in/nilminiabeyratne"
+  - label: "Medium"
+    url: "https://medium.com/@nilmini20s"
+  - label: "GitHub"
+    url: "https://github.com/nilmini20s"
