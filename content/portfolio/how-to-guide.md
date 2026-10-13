@@ -1,8 +1,9 @@
 ---
 title: "How-To Guide: Rolling Up Simulation Results"
-date: 2024-10-01
+date: 2026-07-15
 summary: "A procedural guide for consolidating CPU simulator output files into a single CSV for analysis."
-tags: ["How-To Guide", "Intel"]
+image: "/images/card-howto.svg"
+tags: ["How-To Guide"]
 ---
 
 ## About this writing sample

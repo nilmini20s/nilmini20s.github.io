@@ -3,7 +3,7 @@ items:
     summary: "A procedural guide for performance validation engineers, written from memory based on a workflow I ran hundreds of times at Intel."
     image: "/images/card-howto.svg"
     date: "2026-07-15"
-    tags: ["How-To Guide", "Intel"]
+    tags: ["How-To Guide"]
     links:
       - label: "Read"
         link: "/portfolio/how-to-guide/"
@@ -14,7 +14,7 @@ items:
     summary: "A writing exercise extending Antithesis's setup guide with three new sections to orient users to their first test results."
     image: "/images/card-setup.svg"
     date: "2026-10-12"
-    tags: ["Setup Guide", "Antithesis"]
+    tags: ["How-To Guide"]
     links:
       - label: "Read"
         link: "/portfolio/setup-guide/"
@@ -25,7 +25,7 @@ items:
     summary: "A Medium article exploring the tools and workflows used by technical writers in the software industry."
     image: "/images/card-article-sw.svg"
     date: "2026-05-29"
-    tags: ["Article", "Medium"]
+    tags: ["Explanation", "Medium"]
     links:
       - label: "Read on Medium"
         link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-software-6cf91ba5c298"
@@ -34,7 +34,7 @@ items:
     summary: "A Medium article exploring the tools and workflows used by technical writers in the manufacturing industry."
     image: "/images/card-article-mfg.svg"
     date: "2026-05-15"
-    tags: ["Article", "Medium"]
+    tags: ["Explanation", "Medium"]
     links:
       - label: "Read on Medium"
         link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-manufacturing-d63a3b6d409b"
@@ -43,7 +43,7 @@ items:
     summary: "Detailed build plans for a hobby woodworking project, demonstrating technical illustration and instructional design skills."
     image: "/images/card-buildplans.svg"
     date: "2026-10-06"
-    tags: ["PDF", "Build Plans"]
+    tags: ["How-To Guide"]
     links:
       - label: "View PDF"
         link: "/files/dice-randomizer-build-plans.pdf"

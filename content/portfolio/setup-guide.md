@@ -1,8 +1,9 @@
 ---
 title: "Setup Guide Extension: Accessing Test Results in Antithesis"
-date: 2024-11-01
+date: 2026-10-12
 summary: "An extension to Antithesis's setup guide, adding sections to help users access and interpret their first test results."
-tags: ["Setup Guide", "Antithesis"]
+image: "/images/card-setup.svg"
+tags: ["How-To Guide"]
 ---
 
 ## About this writing sample

@@ -22,6 +22,7 @@ enableRobotsTXT = true
     enable = true
     layout = "cards"
     title = "Writing Samples"
+    limit = 5
 
 
 [markup]
