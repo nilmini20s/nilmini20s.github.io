@@ -20,7 +20,7 @@ enableRobotsTXT = true
 
   [params.homepage.portfolio]
     enable = true
-    layout = "grid"
+    layout = "cards"
     title = "Writing Samples"
 
 

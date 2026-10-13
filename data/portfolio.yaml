@@ -1,25 +1,49 @@
 items:
-  - name: "How-To Guide: Rolling Up Simulation Results"
-    description: "A procedural guide for performance validation engineers, written from memory based on a workflow I ran hundreds of times at Intel."
-    link: "/portfolio/how-to-guide/"
+  - title: "How-To Guide: Rolling Up Simulation Results"
+    summary: "A procedural guide for performance validation engineers, written from memory based on a workflow I ran hundreds of times at Intel."
     image: "/images/card-howto.svg"
+    date: "2026-07-15"
+    tags: ["How-To Guide", "Intel"]
+    links:
+      - label: "Read"
+        link: "/portfolio/how-to-guide/"
+      - label: "GitHub"
+        link: "https://github.com/nilmini20s/how-to-guide-writing-sample"
 
-  - name: "Setup Guide Extension: Accessing Test Results"
-    description: "A writing exercise extending Antithesis's setup guide with three new sections to orient users to their first test results."
-    link: "/portfolio/setup-guide/"
+  - title: "Setup Guide Extension: Accessing Test Results"
+    summary: "A writing exercise extending Antithesis's setup guide with three new sections to orient users to their first test results."
     image: "/images/card-setup.svg"
+    date: "2026-10-12"
+    tags: ["Setup Guide", "Antithesis"]
+    links:
+      - label: "Read"
+        link: "/portfolio/setup-guide/"
+      - label: "GitHub"
+        link: "https://github.com/nilmini20s/setup-guide-writing-sample"
 
-  - name: "What I Learned About Technical Writing Tools in Software"
-    description: "A Medium article exploring the tools and workflows used by technical writers in the software industry."
-    link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-software-6cf91ba5c298"
+  - title: "What I Learned About Technical Writing Tools in Software"
+    summary: "A Medium article exploring the tools and workflows used by technical writers in the software industry."
     image: "/images/card-article-sw.svg"
+    date: "2026-05-29"
+    tags: ["Article", "Medium"]
+    links:
+      - label: "Read on Medium"
+        link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-software-6cf91ba5c298"
 
-  - name: "What I Learned About Technical Writing Tools in Manufacturing"
-    description: "A Medium article exploring the tools and workflows used by technical writers in the manufacturing industry."
-    link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-manufacturing-d63a3b6d409b"
+  - title: "What I Learned About Technical Writing Tools in Manufacturing"
+    summary: "A Medium article exploring the tools and workflows used by technical writers in the manufacturing industry."
     image: "/images/card-article-mfg.svg"
+    date: "2026-05-15"
+    tags: ["Article", "Medium"]
+    links:
+      - label: "Read on Medium"
+        link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-manufacturing-d63a3b6d409b"
 
-  - name: "Woodworking Build Plans"
-    description: "Detailed build plans for a hobby woodworking project, demonstrating technical illustration and instructional design skills."
-    link: "/files/dice-randomizer-build-plans.pdf"
+  - title: "Woodworking Build Plans"
+    summary: "Detailed build plans for a hobby woodworking project, demonstrating technical illustration and instructional design skills."
     image: "/images/card-buildplans.svg"
+    date: "2026-10-06"
+    tags: ["PDF", "Build Plans"]
+    links:
+      - label: "View PDF"
+        link: "/files/dice-randomizer-build-plans.pdf"
