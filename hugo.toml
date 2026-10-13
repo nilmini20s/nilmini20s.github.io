@@ -1,0 +1,59 @@
+themesDir = "themes"
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Nilmini — Technical Writer'
+theme = 'celadon'
+enableRobotsTXT = true
+
+[params]
+  description = 'Technical writer with 8 years of computer engineering experience at Intel. Bridging deep technical knowledge with clear, user-centered documentation.'
+  email = 'nilmini20s@gmail.com'
+  location = 'Portland, Oregon'
+
+[params.homepage]
+  sections = ["hero", "portfolio"]
+
+  [params.homepage.hero]
+    enable = true
+    layout = "hero"
+    title = "About"
+
+  [params.homepage.portfolio]
+    enable = true
+    layout = "grid"
+    title = "Writing Samples"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        enableInShortcodes = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [
+            ["\\[", "\\]"],
+            ["$$", "$$"]
+          ]
+          inline = [
+            ["\\(", "\\)"],
+            ["$", "$"]
+          ]
+  [markup.highlight]
+    style = "friendly"
+    noClasses = false
+    lineNos = true
+    guessSyntax = true
+
+# ---------------------------------------------------------
+# CASCADING DEFAULTS
+# This applies settings to ALL files in the 'content' folder
+# ---------------------------------------------------------
+
+[[cascade]]
+  layout = "single"      # 1. The Rule: Use single.html
+  [cascade._target]
+    path = "/**"         # 2. The Scope: Inside any folder (** = "Recursive" - go as deep as you want)
+    kind = "page"        # 3. The Filter: But ONLY for regular text files (not list nor home pages)

@@ -1,0 +1,23 @@
+name: "Nilmini Abeyratne"
+title: "Technical Writer"
+summary: >
+  Former Intel computer engineer pivoting into technical writing. I bring 8+ years of
+  ~~research~~, ~~data analysis~~, and ~~cross-functional engineering communication~~ 
+  experience to creating clear, accurate documentation for technical audiences.
+affiliation: "Beaverton, Oregon"
+profile_image: "images/profile.jpg"
+profile_layout: "modern"
+profile_image_style: "circle"
+
+list:
+  - "How-to guides, setup guides, and procedural documentation"
+  - "Docs-as-code: Git, GitHub, VS Code, Markdown, static site generators"
+  - "Deep technical background: microprocessor architecture, high performance computing"
+
+links:
+  - label: "GitHub"
+    url: "https://github.com/nilmini20s"
+  - label: "Medium"
+    url: "https://medium.com/@nilmini20s"
+  - label: "LinkedIn"
+    url: "https://linkedin.com/in/nilminiabeyratne"

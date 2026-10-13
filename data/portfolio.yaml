@@ -1,0 +1,25 @@
+items:
+  - name: "How-To Guide: Rolling Up Simulation Results"
+    description: "A procedural guide for performance validation engineers, written from memory based on a workflow I ran hundreds of times at Intel."
+    link: "/portfolio/how-to-guide/"
+    image: "/images/card-howto.svg"
+
+  - name: "Setup Guide Extension: Accessing Test Results"
+    description: "A writing exercise extending Antithesis's setup guide with three new sections to orient users to their first test results."
+    link: "/portfolio/setup-guide/"
+    image: "/images/card-setup.svg"
+
+  - name: "What I Learned About Technical Writing Tools in Software"
+    description: "A Medium article exploring the tools and workflows used by technical writers in the software industry."
+    link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-software-6cf91ba5c298"
+    image: "/images/card-article-sw.svg"
+
+  - name: "What I Learned About Technical Writing Tools in Manufacturing"
+    description: "A Medium article exploring the tools and workflows used by technical writers in the manufacturing industry."
+    link: "https://medium.com/@nilmini20s/what-i-learned-about-technical-writing-tools-in-manufacturing-d63a3b6d409b"
+    image: "/images/card-article-mfg.svg"
+
+  - name: "Woodworking Build Plans"
+    description: "Detailed build plans for a hobby woodworking project, demonstrating technical illustration and instructional design skills."
+    link: "/files/dice-randomizer-build-plans.pdf"
+    image: "/images/card-buildplans.svg"
