@@ -1,0 +1,23 @@
+/*
+ * custom.css
+ * Project-level styles that extend the Celadon theme.
+ * Loaded by our override of layouts/_partials/head.html
+ * (which adds a <link> for this file after the theme's main.css).
+ */
+
+/* Styled box for the "About this writing sample" section
+   on portfolio deep pages (how-to-guide, setup-guide, etc.).
+   Wraps content inside <div class="about-callout"> in the markdown. */
+.about-callout {
+  background: var(--color-surface, #f0f2f5);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-secondary, #444);
+}
+.about-callout p:first-child { margin-top: 0; }
+.about-callout p:last-child { margin-bottom: 0; }
+.about-callout strong { color: var(--color-text, #333); }
+.about-callout a { color: var(--color-accent, #6b8e9b); }

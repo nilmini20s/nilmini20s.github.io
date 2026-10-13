@@ -6,6 +6,8 @@ image: "/images/card-howto.svg"
 tags: ["How-To Guide"]
 ---
 
+<div class="about-callout">
+
 ## About this writing sample
 
 I wrote this how-to guide from memory, based on my work at Intel. At Intel, I worked frequently with a CPU architectural simulator, running experiments that varied things like CPU frequency, cache sizes, and credits. Oftentimes, we would run these experiments across hundreds of benchmarks and parameter combinations, resulting in thousands of individual runs, each generating its own output file containing thousands of statistics.
@@ -18,7 +20,7 @@ This roll-up script was something I used very frequently, sometimes multiple tim
 
 [View source on GitHub](https://github.com/nilmini20s/how-to-guide-writing-sample)
 
----
+</div>
 
 # How to rollup simulation results into a CSV file
 

@@ -6,23 +6,21 @@ image: "/images/card-setup.svg"
 tags: ["How-To Guide"]
 ---
 
+<div class="about-callout">
+
 ## About this writing sample
 
 I wrote this as a writing exercise for Antithesis, a software testing company. The task was to extend their existing [Setup Guide](https://antithesis.com/docs/setup/docker_compose/) so it teaches readers how to access and interpret the results of their first test.
 
-The existing guide ends once the user has kicked off a test run. My extension adds three new sections — Access your results, Understand your results, and Next steps — that orient the reader to the triage report, Logs Explorer, and multiverse map.
+The existing guide ends once the user has kicked off a test run. My extension adds three new sections — Access your results, Understand your results, and Next steps — that orient the reader to the triage report, Logs Explorer, and multiverse map. I wrote the sections in a way that they could be appended to both the Docker Compose and the Kubernetes guides.
 
 **Note:** Antithesis has since updated their setup guides. This sample was written against the earlier version of the guides, which configured test launches via curl rather than through the web app.
-
-**My approach:** The original final section did two things at once: it briefly mentioned the triage report and listed next steps. My extension separates these into distinct sections — Access your results, Understand your results, and Next steps — giving each topic room to orient the reader one step at a time.
-
-While working on this, I also noticed inconsistencies between the Docker Compose and Kubernetes versions of the guide (different section headings, different coverage of the Logs Explorer and email notifications). I wrote the new sections so they could be appended to both guides.
 
 **Intended audience:** A developer who has just set up Antithesis and triggered their first test, and needs to find and interpret the results.
 
 [View source on GitHub](https://github.com/nilmini20s/setup-guide-writing-sample)
 
----
+</div>
 
 *The sections below extend the existing Antithesis setup guide, picking up after step 7 ("Run your first test!").*
 
