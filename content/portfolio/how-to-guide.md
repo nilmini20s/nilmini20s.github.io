@@ -10,13 +10,13 @@ tags: ["How-To Guide"]
 
 ## About this writing sample
 
-I wrote this how-to guide from memory, based on my work at Intel. At Intel, I worked frequently with a CPU architectural simulator, running experiments that varied things like CPU frequency, cache sizes, and credits. Oftentimes, we would run these experiments across hundreds of benchmarks and parameter combinations, resulting in thousands of individual runs, each generating its own output file containing thousands of statistics.
+I wrote this how-to guide from memory, based on my work at Intel. At Intel, I worked frequently with a CPU architectural simulator, running experiments that varied things like CPU frequency, cache size, and credits. Oftentimes, we would run these experiments across hundreds of benchmarks and parameter combinations, resulting in thousands of individual runs, each generating its own output file containing thousands of statistics. 
 
-In order to extract data from these output files, we used a roll-up script (a Perl script originally written by another engineer on the team) that parsed these files and extracted just the relevant metrics we cared about into a CSV file. From there, we'd do analysis in Excel, such as plotting the data, observing trends, or debugging outliers.
+In order to extract data from these output files, we used the rollup script (a Perl script originally written by another engineer on the team) that aggregated just the metrics we cared about from thousands of files into a single CSV file. From there, we'd do analysis in Excel, such as plotting the data, observing trends, or debugging outliers. 
 
-This roll-up script was something I used very frequently, sometimes multiple times a week. I sometimes showed other engineers on other teams how to do the rollup. The original instructions lived on an internal Confluence Wiki page. This writing sample recreates that guide from memory, having run this process several hundred times myself.
+This roll-up script was something I used very frequently, sometimes multiple times a week. I sometimes showed other engineers on other teams how to do the rollup. No one had documented this process, so I wrote the original instructions on an internal Confluence wiki page. This writing sample recreates that guide from memory, having run this process several hundred times myself. I wrote this sample in Markdown in VS Code and pushed it to Github.
 
-**Intended audience:** A performance validation engineer already using the simulator, who has results in hand, and needs to consolidate results for analysis.
+**Intended audience:** Performance validation engineers who have run experiments on the simulator and need to consolidate the results for analysis.
 
 [View source on GitHub](https://github.com/nilmini20s/how-to-guide-writing-sample)
 
